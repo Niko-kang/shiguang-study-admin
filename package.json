@@ -1,0 +1,41 @@
+{
+  "name": "shiguang-study-admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@cloudbase/js-sdk": "3.10.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "^1.31.0",
+    "radix-ui": "^1.6.7",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "3.6.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@cloudbase/node-sdk": "3.18.3",
+    "@cloudflare/workers-types": "4.20260515.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "esbuild": "0.27.3",
+    "tailwindcss": "4.2.1",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "5.9.3",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  }
+}
